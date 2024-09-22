@@ -1,1 +1,31 @@
+# Question 1: Write a Python program that takes two numbers as input from the user and performs the following operations:
+# Addition
+# Subtraction
+# Multiplication
+# Division
+# Modulus
+# Display the results for each operation.
+# num1 =int(input("Enter the First number :"))
+# num2 =int(input("Enter the Second number :"))
+# x=num1
+# y=num2
+# Addition=x+y
+# Subtraction=x-y
+# Multiplication=x*y
+# Division=x/y
+# Modulus=x%y
+#
+# print("Addition of num1 and num 2 :",Addition)
+# print("Subtraction of num1 and num 2 :",Subtraction)
+# print("Multiplication of num1 and num 2 :",Multiplication)
+# print("Division of num1 and num 2 :",Division)
+# print("Modulus of num1 and num 2 :",Modulus)
 
+#Question 2: Write a Python program that checks whether a given number is even or odd using the modulus operator.
+
+
+num = int(input("Enter a number: "))
+if num % 2 == 0:
+    print(num is even.")
+else:
+    print(num is odd.")
